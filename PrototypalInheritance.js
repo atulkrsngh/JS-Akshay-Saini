@@ -19,6 +19,6 @@ let object2 = {
 object2.__proto__ = object1;
 
 
-object2.city;
+console.log(object2.city); // kanpur
 
-object1.getIntro();
+object1.getIntro(); // Shakti from Kanpur
