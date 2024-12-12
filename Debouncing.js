@@ -16,7 +16,7 @@ const debounce = function(fn, d){
         
         clearTimeout(timer);
         timer = setTimeout(()=>{
-            getData.apply(context, arguments);
+            fn.apply(context, arguments);
         }, d);
     }
 }
