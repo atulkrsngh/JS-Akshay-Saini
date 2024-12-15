@@ -33,3 +33,13 @@ let recursiveFunction = (obj, parent) => {
 recursiveFunction(user,"user");
 
 console.log(finalObj);
+/*
+{
+  user_name: 'Shakti',
+  user_address_home_city: 'Kanpur',
+  user_address_home_state: 'Uttar Pradesh',
+  user_address_office_city: 'Bengaluru',
+  user_address_office_state: 'Karnataka',
+  user_address_office_area_landmark: 'Sarjapura'
+}
+*/
